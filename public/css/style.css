@@ -1,0 +1,140 @@
+body{
+
+font-family:Arial;
+margin:0;
+background:#f4f8fb;
+
+}
+
+.gov-header{
+
+background:#003366;
+color:white;
+padding:20px;
+text-align:center;
+
+}
+
+nav a{
+
+color:white;
+margin:10px;
+text-decoration:none;
+
+}
+
+.hero{
+
+text-align:center;
+padding:40px;
+
+}
+
+.hero img{
+
+width:200px;
+border-radius:50%;
+
+}
+
+.news{
+
+background:white;
+padding:20px;
+margin:20px;
+
+}
+
+.hero{
+text-align:center;
+padding:80px;
+background:#f4f4f4;
+}
+
+.profile-img{
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid #006600;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#006600;
+color:white;
+text-decoration:none;
+border-radius:5px;
+margin-top:20px;
+}
+.gov-header{
+background:#006600;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+#contact a {
+  color: #1e90ff; /* professional blue */
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+header {
+  background-color: #004b87; /* Kenya gov-style blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header img.profile-pic {
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section#cv, section#contact {
+  padding: 40px;
+  text-align: center;
+}
+
+.btn-download {
+  background-color: #fdb913; /* gov-style accent */
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-download:hover {
+  background-color: #e0a800;
+}

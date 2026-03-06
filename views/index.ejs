@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Engineer Samuel Alima</title>
+
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+<%- include("partials/header") %>
+
+<section class="hero">
+
+<img src="public/images/Alima.jpeg" class="profile-img">
+
+<h1>Engineer Samuel Alima</h1>
+
+<h2>Principal Secretary – Ministry of Water, Sanitation & Irrigation</h2>
+
+<p>
+Engineer Samuel Alima is a distinguished public servant leading Kenya's
+water infrastructure development, irrigation expansion, and sanitation programs.
+</p>
+
+<a href="public/cv/My_CV_ (1).pdf" class="btn">Download CV</a>
+
+</section>
+
+<section id="about">
+
+<h2>About</h2>
+
+<p>
+Engineer Samuel Alima serves as the Principal Secretary for Water
+in Kenya's Ministry of Water, Sanitation and Irrigation.
+</p>
+
+</section>
+
+<section id="projects">
+
+<h2>Major Water Projects</h2>
+
+<ul>
+
+<li>Thwake Dam Project</li>
+<li>National Irrigation Program</li>
+<li>Groundwater Development</li>
+
+</ul>
+
+</section>
+
+<section id="news">
+
+<h2>Latest News</h2>
+
+<% news.forEach(item=>{ %>
+
+<div class="news">
+
+<h3><%= item.title %></h3>
+
+<p><%= item.content %></p>
+
+</div>
+
+<% }) %>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p><strong>Email:</strong> <a href="mailto:alima.superps@gmail.com">alima.superps@gmail.com</a></p>
+  <p><strong>Phone:</strong> <a href="tel:+254722 646 064|| ">+254 722 646 064</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alima" target="_blank">linkedin.com/in/alima</a></p>
+
+</section>
+
+<%- include("partials/footer") %>
+
+</body>
+</html>
