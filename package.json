@@ -1,0 +1,16 @@
+{
+  "name": "sam-alima-portfolio",
+  "version": "1.0.0",
+  "description": "Engineer Samuel Alima Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "ejs": "^3.1.9",
+    "dotenv": "^16.4.0",
+    "body-parser": "^1.20.2"
+  }
+}
